@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="it" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Federico Zappaterra | Ricerca, Didattica, Divulgazione</title>
+  <meta name="description" content="Sito personale di Federico Zappaterra: ricercatore in Chimica Industriale, docente universitario e divulgatore scientifico. Biocatalisi, chimica sostenibile, didattica della chimica e AI per l'apprendimento." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: '#162839',
+            mist: '#f7f8f8',
+            sage: '#23413d',
+            line: '#d7dde2'
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            serif: ['Newsreader', 'Georgia', 'serif']
+          },
+          boxShadow: {
+            soft: '0 12px 40px rgba(22,40,57,0.08)'
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,400;6..72,600;6..72,700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-mist text-slate-800 antialiased">
+  <header class="sticky top-0 z-50 border-b border-line/80 bg-white/85 backdrop-blur">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
+      <a href="#top" class="text-sm font-semibold tracking-[0.18em] text-ink uppercase">Federico Zappaterra</a>
+      <nav class="hidden gap-6 text-sm text-slate-600 md:flex">
+        <a href="#chi-sono" class="hover:text-ink">Chi sono</a>
+        <a href="#ricerca" class="hover:text-ink">Ricerca</a>
+        <a href="#didattica" class="hover:text-ink">Didattica</a>
+        <a href="#youtube" class="hover:text-ink">YouTube</a>
+        <a href="#ai" class="hover:text-ink">AI</a>
+        <a href="#collaborazioni" class="hover:text-ink">Collaborazioni</a>
+        <a href="#contatti" class="hover:text-ink">Contatti</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="relative overflow-hidden border-b border-line bg-gradient-to-b from-white to-slate-50">
+      <div class="absolute inset-0 opacity-[0.06]" aria-hidden="true">
+        <div class="absolute left-10 top-16 h-40 w-40 rounded-full border border-ink"></div>
+        <div class="absolute right-16 top-12 h-64 w-64 rounded-full border border-sage"></div>
+        <div class="absolute bottom-[-40px] left-1/2 h-48 w-48 -translate-x-1/2 rounded-full border border-ink"></div>
+      </div>
+      <div class="relative mx-auto grid max-w-7xl gap-12 px-6 py-20 lg:grid-cols-[1.2fr_0.8fr] lg:px-8 lg:py-28">
+        <div>
+          <div class="mb-6 flex flex-wrap gap-3 text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">
+            <a href="#pubblicazioni-recenti" class="rounded-full border border-line bg-white px-3 py-1 transition hover:border-ink hover:text-ink">Ricerca</a>
+            <a href="https://docente.unife.it/federico.zappaterra" target="_blank" rel="noopener noreferrer" class="rounded-full border border-line bg-white px-3 py-1 transition hover:border-ink hover:text-ink">Didattica</a>
+            <a href="https://www.youtube.com/@biologicalgathering" target="_blank" rel="noopener noreferrer" class="rounded-full border border-line bg-white px-3 py-1 transition hover:border-ink hover:text-ink">Divulgazione</a>
+            <a href="https://www.youtube.com/playlist?list=PLN-jrPtANVgplw_TU3qgAmk8zwW2vb8yL" target="_blank" rel="noopener noreferrer" class="rounded-full border border-line bg-white px-3 py-1 transition hover:border-ink hover:text-ink">AI per l'apprendimento</a>
+          </div>
+          <h1 class="max-w-4xl font-serif text-5xl leading-tight text-ink md:text-6xl">Chimica industriale, biocatalisi e comunicazione scientifica</h1>
+          <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-600">Sono Federico Zappaterra, ricercatore in Chimica Industriale all'Università di Ferrara. Mi occupo di biocatalisi, chimica sostenibile e processi bio-based, con un interesse forte per la didattica universitaria, la divulgazione scientifica e l'uso intelligente degli strumenti digitali e dell'intelligenza artificiale.</p>
+          <div class="mt-8 flex flex-wrap gap-4">
+            <a href="#ricerca" class="rounded-full bg-ink px-6 py-3 text-sm font-semibold text-white shadow-soft transition hover:-translate-y-0.5">Scopri il mio lavoro</a>
+            <a href="https://www.youtube.com/@biologicalgathering" target="_blank" rel="noopener noreferrer" class="rounded-full border border-ink px-6 py-3 text-sm font-semibold text-ink transition hover:bg-ink hover:text-white">Guarda il canale YouTube</a>
+          </div>
+          <dl class="mt-10 grid max-w-3xl grid-cols-1 gap-5 border-t border-line pt-8 sm:grid-cols-3">
+            <div>
+              <dt class="text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">Focus</dt>
+              <dd class="mt-2 text-sm leading-6 text-slate-700">Biocatalisi, enzimi, lipasi, sostenibilità, molecular docking, DoE.</dd>
+            </div>
+            <div>
+              <dt class="text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">Ruolo</dt>
+              <dd class="mt-2 text-sm leading-6 text-slate-700">Ricercatore e docente universitario in "Chimica Industriale" e "Storia, Metodologie ed Esperienze Didattiche in Chimica".</dd>
+            </div>
+            <div>
+              <dt class="text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">Divulgazione</dt>
+              <dd class="mt-2 text-sm leading-6 text-slate-700">YouTube @biologicalgathering: studio, AI, metodo, presentazioni.</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="flex items-center justify-center">
+          <div class="w-full max-w-md rounded-[2rem] border border-line bg-white p-8 shadow-soft">
+            <div class="aspect-[4/5] overflow-hidden rounded-[1.5rem] bg-gradient-to-br from-slate-100 to-slate-200">
+              <img
+                src="images/federico-zappaterra-laboratorio.JPG"
+                alt="Ritratto di Federico Zappaterra"
+                class="h-full w-full object-cover"
+              />
+            </div>
+            <div class="mt-6 border-t border-line pt-6">
+              <p class="text-xs font-semibold uppercase tracking-[0.16em] text-slate-500">Profilo</p>
+              <p class="mt-2 text-lg font-semibold text-ink">Ricercatore, docente, divulgatore</p>
+              <p class="mt-2 text-sm leading-6 text-slate-600">Un percorso che unisce ricerca scientifica, didattica universitaria e comunicazione digitale.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="chi-sono" class="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+      <div class="grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:gap-16">
+        <div>
+          <p class="text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">Chi sono</p>
+          <h2 class="mt-4 font-serif text-4xl text-ink">Il mio percorso</h2>
+        </div>
+        <div class="space-y-6 text-lg leading-8 text-slate-600">
+          <p>Lavoro all'intersezione tra ricerca applicata, chimica sostenibile e trasferimento di conoscenza. In ambito scientifico mi occupo di processi biocatalitici, valorizzazione di molecole bioattive, enzimi immobilizzati e strategie sperimentali per l'ottimizzazione di processo.</p>
+          <p>Parallelamente, nella didattica e nella divulgazione, mi interessa rendere la scienze più comprensibile, sulla base di struttura, metodo e pensiero critico.</p>
+          <p>Per questo integro anche temi come presentazioni efficaci, strumenti digitali, workflow accademici e intelligenza artificiale applicata allo studio e alla comunicazione scientifica.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="ricerca" class="border-y border-line bg-white">
+      <div class="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+        <div class="max-w-3xl">
+          <p class="text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">Ricerca</p>
+          <h2 class="mt-4 font-serif text-4xl text-ink">Linee di ricerca e competenze scientifiche</h2>
+          <p class="mt-4 text-lg leading-8 text-slate-600">Aree in cui concentro attività sperimentale, ottimizzazione di processo e progettazione scientifica.</p>
+        </div>
+        <div class="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+          <article class="rounded-[1.5rem] border border-line bg-mist p-7 shadow-soft">
+            <h3 class="text-xl font-semibold text-ink">Biocatalisi e biotrasformazioni</h3>
+            <p class="mt-3 text-sm leading-7 text-slate-600">Sviluppo di processi selettivi basati su enzimi per la sintesi di molecole ad alto valore aggiunto, con attenzione a resa, selettività e sostenibilità.</p>
+          </article>
+          <article class="rounded-[1.5rem] border border-line bg-mist p-7 shadow-soft">
+            <h3 class="text-xl font-semibold text-ink">Enzimi e lipasi</h3>
+            <p class="mt-3 text-sm leading-7 text-slate-600">Studio di sistemi enzimatici, in particolare lipasi, per esterificazioni, idrolisi e trasformazioni di interesse industriale e bio-based.</p>
+          </article>
+          <article class="rounded-[1.5rem] border border-line bg-mist p-7 shadow-soft">
+            <h3 class="text-xl font-semibold text-ink">Chimica sostenibile e bio-based</h3>
+            <p class="mt-3 text-sm leading-7 text-slate-600">Processi orientati alla green chemistry, alla bioeconomia e alla valorizzazione di risorse rinnovabili in una prospettiva concreta di innovazione industriale.</p>
+          </article>
+          <article class="rounded-[1.5rem] border border-line bg-mist p-7 shadow-soft">
+            <h3 class="text-xl font-semibold text-ink">Immobilizzazione enzimatica</h3>
+            <p class="mt-3 text-sm leading-7 text-slate-600">Progettazione di supporti e strategie di immobilizzazione per migliorare stabilità, riutilizzo e robustezza dei biocatalizzatori.</p>
+          </article>
+          <article class="rounded-[1.5rem] border border-line bg-mist p-7 shadow-soft">
+            <h3 class="text-xl font-semibold text-ink">Molecular docking</h3>
+            <p class="mt-3 text-sm leading-7 text-slate-600">Uso del docking molecolare per interpretare interazioni enzima-substrato e supportare la razionalizzazione dei risultati sperimentali.</p>
+          </article>
+          <article class="rounded-[1.5rem] border border-line bg-mist p-7 shadow-soft">
+            <h3 class="text-xl font-semibold text-ink">Design of Experiment</h3>
+            <p class="mt-3 text-sm leading-7 text-slate-600">Approcci statistici e sperimentali per l'ottimizzazione robusta di processo, con particolare attenzione alle variabili critiche e alle interazioni.</p>
+          </article>
+        </div>
+
+        <div class="mt-14 rounded-[2rem] border border-line bg-slate-50 p-8 lg:p-10">
+          <div class="flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between">
+            <div class="max-w-2xl">
+              <h3 id="pubblicazioni-recenti" class="text-2xl font-semibold text-ink">Pubblicazioni recenti</h3>
+              <p class="mt-3 text-sm leading-7 text-slate-600">Selezione aggiornata delle pubblicazioni più recenti, con accesso diretto agli articoli tramite DOI o pagina dell’editore.</p>
+            </div>
+            <a href="https://scholar.google.com/citations?user=Z-Mv4AUAAAAJ&hl=it" target="_blank" rel="noopener noreferrer" class="rounded-full border border-ink px-5 py-3 text-sm font-semibold text-ink transition hover:bg-ink hover:text-white">Approfondisci la ricerca</a>
+          </div>
+          <div id="orcid-publications" class="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+            <div class="rounded-2xl border border-line bg-white p-5">
+              <p class="text-sm leading-6 text-slate-600">Caricamento pubblicazioni da ORCID...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="didattica" class="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+      <div class="grid gap-12 lg:grid-cols-[0.95fr_1.05fr]">
+        <div>
+          <p class="text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">Didattica</p>
+          <h2 class="mt-4 font-serif text-4xl text-ink">Insegnare chimica come contenuto, metodo e linguaggio.</h2>
+          <p class="mt-5 text-lg leading-8 text-slate-600">La didattica è il luogo in cui si costruiscono comprensione, rigore e autonomia intellettuale.</p>
+        </div>
+        <div class="grid gap-5 sm:grid-cols-2">
+          <div class="rounded-[1.5rem] border border-line bg-white p-6 shadow-soft">
+            <h3 class="font-semibold text-ink">Metodologie didattiche</h3>
+            <p class="mt-3 text-sm leading-7 text-slate-600">Approcci per insegnare la chimica con maggiore chiarezza, struttura e attenzione ai processi cognitivi.</p>
+          </div>
+          <div class="rounded-[1.5rem] border border-line bg-white p-6 shadow-soft">
+            <h3 class="font-semibold text-ink">Presentazioni efficaci</h3>
+            <p class="mt-3 text-sm leading-7 text-slate-600">Uso strategico di slide, esempi, sequenza narrativa e gerarchia visiva per spiegare bene contenuti scientifici complessi.</p>
+          </div>
+          <div class="rounded-[1.5rem] border border-line bg-white p-6 shadow-soft">
+            <h3 class="font-semibold text-ink">Pensiero critico</h3>
+            <p class="mt-3 text-sm leading-7 text-slate-600">Formare studenti capaci di interpretare dati, riconoscere limiti metodologici e ragionare oltre la memorizzazione passiva.</p>
+          </div>
+          <div class="rounded-[1.5rem] border border-line bg-white p-6 shadow-soft">
+            <h3 class="font-semibold text-ink">Comunicazione scientifica</h3>
+            <p class="mt-3 text-sm leading-7 text-slate-600">Tradurre il rigore della ricerca in linguaggi più accessibili senza svuotarlo di precisione e complessità reale.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="youtube" class="border-y border-line bg-ink text-white">
+  <div class="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+    <div class="grid gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
+      
+      <div>
+        <p class="text-sm font-semibold uppercase tracking-[0.18em] text-slate-300">YouTube e divulgazione</p>
+        <h2 class="mt-4 font-serif text-4xl leading-tight">@biologicalgathering: studio, AI, metodo, comunicazione.</h2>
+        <p class="mt-5 text-lg leading-8 text-slate-300">
+          Uno spazio in cui la divulgazione incontra l'utilità concreta. Il canale unisce chimica, strategie di studio, intelligenza artificiale, strumenti digitali e riflessioni su come imparare e comunicare meglio.
+        </p>
+        <div class="mt-8 flex flex-col items-center">
+          <a
+            href="https://www.youtube.com/@biologicalgathering"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="mt-8 inline-flex">
+            <img
+              src="images/youtube-profile.jpg"
+              alt="Canale YouTube Biological Gathering"
+              class="h-48 w-48 rounded-full object-cover border border-white/20 shadow-lg transition hover:scale-105"
+            />
+          </a>
+
+          <a
+            href="https://www.youtube.com/@biologicalgathering"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="mt-6 inline-flex rounded-full border border-white px-6 py-3 text-sm font-semibold text-white transition hover:bg-white hover:text-ink">
+            Visita il canale
+          </a>
+        </div> 
+      </div>
+
+      <div class="grid gap-5 md:grid-cols-2">
+        
+        <div class="rounded-[1.5rem] border border-white/10 bg-white/5 p-6">
+          <p class="text-xs font-semibold uppercase tracking-[0.14em] text-slate-300">Playlist YouTube</p>
+          <h3 class="mt-3 text-lg font-semibold text-white">Università semplice (con AI)</h3>
+
+          <div class="mt-4 overflow-hidden rounded-2xl">
+            <iframe
+              class="aspect-video w-full"
+              src="https://www.youtube.com/embed/videoseries?list=PLN-jrPtANVgplw_TU3qgAmk8zwW2vb8yL"
+              title="Playlist AI per studiare senza usarla male"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+            </iframe>
+          </div>
+
+          <p class="mt-4 text-sm leading-7 text-slate-300">
+            Contenuti pensati per studenti e ricercatori che vogliono integrare strumenti intelligenti senza cadere in errore.
+          </p>
+
+          <a
+            href="https://www.youtube.com/playlist?list=PLN-jrPtANVgplw_TU3qgAmk8zwW2vb8yL"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="mt-4 inline-flex text-sm font-medium text-white underline underline-offset-4">
+            Apri la playlist su YouTube
+          </a>
+        </div>
+
+        <div class="rounded-[1.5rem] border border-white/10 bg-white/5 p-6">
+          <p class="text-xs font-semibold uppercase tracking-[0.14em] text-slate-300">Playlist YouTube</p>
+          <h3 class="mt-3 text-lg font-semibold text-white">Presentazioni e comunicazione</h3>
+
+          <div class="mt-4 overflow-hidden rounded-2xl">
+            <iframe
+              class="aspect-video w-full"
+              src="https://www.youtube.com/embed/videoseries?list=PLN-jrPtANVgpUw4gAGRQWm6ZlC4cXz4Gw"
+              title="Playlist Presentazioni e comunicazione"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+            </iframe>
+          </div>
+
+          <p class="mt-4 text-sm leading-7 text-slate-300">
+            Contenuti su slide efficaci, struttura narrativa, design e comunicazione applicati a scuola, università e ricerca.
+          </p>
+
+          <a
+            href="https://www.youtube.com/watch?v=cXuP41Zk-O0&list=PLN-jrPtANVgpUw4gAGRQWm6ZlC4cXz4Gw"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="mt-4 inline-flex text-sm font-medium text-white underline underline-offset-4">
+            Apri la playlist su YouTube
+          </a>
+        </div>
+    
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="ai" class="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+      <div class="max-w-3xl">
+        <p class="text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">AI, strumenti digitali e workflow</p>
+        <h2 class="mt-4 font-serif text-4xl text-ink">L'intelligenza artificiale è utile solo se la si usa con criterio.</h2>
+        <p class="mt-5 text-lg leading-8 text-slate-600">Mi interessa l'uso dell'AI non come gadget, ma come estensione ragionata del lavoro accademico: studio, sintesi, progettazione di presentazioni, produttività, scrittura e organizzazione dei flussi di lavoro per studenti e ricercatori.</p>
+      </div>
+      <div class="mt-12 grid gap-6 lg:grid-cols-3">
+        <div class="rounded-[1.5rem] border border-line bg-white p-7 shadow-soft">
+          <h3 class="text-lg font-semibold text-ink">AI per lo studio</h3>
+          <p class="mt-3 text-sm leading-7 text-slate-600">Supporto alla comprensione, riformulazione, sintesi ragionata e costruzione di mappe concettuali più intelligenti.</p>
+        </div>
+        <div class="rounded-[1.5rem] border border-line bg-white p-7 shadow-soft">
+          <h3 class="text-lg font-semibold text-ink">AI per presentazioni</h3>
+          <p class="mt-3 text-sm leading-7 text-slate-600">Utilizzo consapevole di strumenti digitali per costruire slide, strutture narrative e materiali didattici più chiari ed efficaci.</p>
+        </div>
+        <div class="rounded-[1.5rem] border border-line bg-white p-7 shadow-soft">
+          <h3 class="text-lg font-semibold text-ink">Workflow accademici</h3>
+          <p class="mt-3 text-sm leading-7 text-slate-600">Sistemi pratici per integrare tecnologia, organizzazione e comunicazione in attività di studio, ricerca e contenuto scientifico.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="collaborazioni" class="border-y border-line bg-white">
+      <div class="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+        <div class="grid gap-12 lg:grid-cols-[1fr_1fr]">
+          <div>
+            <p class="text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">Collaborazioni</p>
+            <h2 class="mt-4 font-serif text-4xl text-ink">Progetti, workshop, seminari, contenuti e comunicazione scientifica.</h2>
+            <p class="mt-5 text-lg leading-8 text-slate-600">Il sito è pensato anche come punto di contatto per chi cerca un profilo capace di muoversi tra ricerca, didattica universitaria e divulgazione con un'impostazione seria e contemporanea.</p>
+          </div>
+          <div class="grid gap-5 sm:grid-cols-2">
+            <div class="rounded-[1.5rem] border border-line bg-mist p-6">
+              <h3 class="font-semibold text-ink">Seminari e workshop</h3>
+              <p class="mt-3 text-sm leading-7 text-slate-600">Interventi su biocatalisi, sostenibilità, didattica della chimica, AI e comunicazione scientifica.</p>
+            </div>
+            <div class="rounded-[1.5rem] border border-line bg-mist p-6">
+              <h3 class="font-semibold text-ink">Divulgazione e outreach</h3>
+              <p class="mt-3 text-sm leading-7 text-slate-600">Progetti che avvicinano contenuti scientifici avanzati a studenti, pubblico ampio e contesti educativi.</p>
+            </div>
+            <div class="rounded-[1.5rem] border border-line bg-mist p-6">
+              <h3 class="font-semibold text-ink">Contenuti educativi</h3>
+              <p class="mt-3 text-sm leading-7 text-slate-600">Sviluppo di materiali, format e percorsi utili per università, eventi, canali digitali e formazione.</p>
+            </div>
+            <div class="rounded-[1.5rem] border border-line bg-mist p-6">
+              <h3 class="font-semibold text-ink">Progetti interdisciplinari</h3>
+              <p class="mt-3 text-sm leading-7 text-slate-600">Collaborazioni che connettano chimica, innovazione, educazione e strumenti digitali.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contatti" class="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+      <div class="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
+        <div>
+          <p class="text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">Contatti</p>
+          <h2 class="mt-4 font-serif text-4xl text-ink">Contatto diretto.</h2>
+          <p class="mt-5 text-lg leading-8 text-slate-600">Qui puoi inserire i tuoi riferimenti reali e sostituire i placeholder. Per ora la struttura è pronta; manca solo il contenuto definitivo.</p>
+          <div class="mt-8 text-sm leading-7 text-slate-700">
+            <p class="mb-2"><strong>Email:</strong> federico.zappaterra@unife.it</p>
+            <p class="mb-6"><strong>Affiliazione:</strong> Università degli Studi di Ferrara · Dipartimento di Scienze Chimiche, Farmaceutiche ed Agrarie</p>
+            <p class="mb-2"><strong>YouTube:</strong> <a href="https://www.youtube.com/@biologicalgathering" target="_blank" rel="noopener noreferrer" class="underline underline-offset-4">@biologicalgathering</a></p>
+            <p class="mb-2"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/federico-zappaterra/" target="_blank" rel="noopener noreferrer" class="underline underline-offset-4">federico-zappaterra</a></p>
+            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/zappabassplayer/" target="_blank" rel="noopener noreferrer" class="underline underline-offset-4">@zappabassplayer</a></p>
+
+          </div>
+        </div>
+        <div class="rounded-[2rem] border border-line bg-white p-8 shadow-soft">
+          <p class="text-xs font-semibold uppercase tracking-[0.16em] text-slate-500">Contatti rapidi</p>
+          <h3 class="mt-3 text-2xl font-semibold text-ink">Scrivimi direttamente</h3>
+          <p class="mt-4 text-sm leading-7 text-slate-600">
+            Per collaborazioni, seminari, workshop, attività didattiche o progetti di divulgazione scientifica, puoi contattarmi direttamente tramite email o profili online.
+          </p>
+
+          <div class="mt-8 flex flex-col gap-4">
+            <a
+              href="mailto:federico.zappaterra@unife.it"
+              class="inline-flex w-fit rounded-full bg-ink px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5">
+              Invia un'email
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/federico-zappaterra/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex w-fit rounded-full border border-ink px-6 py-3 text-sm font-semibold text-ink transition hover:bg-ink hover:text-white">
+              Vai a LinkedIn
+            </a>
+
+            <a
+              href="https://www.youtube.com/@biologicalgathering"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex w-fit rounded-full border border-ink px-6 py-3 text-sm font-semibold text-ink transition hover:bg-ink hover:text-white">
+              Vai al canale YouTube
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-line bg-white">
+    <div class="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-sm text-slate-500 lg:flex-row lg:items-center lg:justify-between lg:px-8">
+      <p>Federico Zappaterra · Ricerca, didattica e divulgazione scientifica</p>
+      <p>Università di Ferrara · @biologicalgathering</p>
+    </div>
+  </footer>
+ <script>
+  const ORCID_ID = "0000-0001-5852-2942";
+
+  async function loadOrcidWorks() {
+    const container = document.getElementById("orcid-publications");
+
+    try {
+      const response = await fetch(`https://pub.orcid.org/v3.0/${ORCID_ID}/works`, {
+        headers: {
+          "Accept": "application/json"
+        }
+      });
+
+      if (!response.ok) {
+        throw new Error("Errore nel caricamento ORCID");
+      }
+
+      const data = await response.json();
+      const groups = data.group || [];
+
+      if (!groups.length) {
+        container.innerHTML = `
+          <div class="rounded-2xl border border-line bg-white p-5">
+            <p class="text-sm leading-6 text-slate-600">Nessuna pubblicazione pubblica trovata su ORCID.</p>
+          </div>
+        `;
+        return;
+      }
+
+      const items = groups.map(group => {
+        const summary = group["work-summary"]?.[0];
+        if (!summary) return null;
+
+        const title = summary.title?.title?.value || "Titolo non disponibile";
+        const year = summary["publication-date"]?.year?.value || "n.d.";
+        const journal = summary["journal-title"]?.value || "";
+        const type = summary.type || "work";
+        const externalIds = summary["external-ids"]?.["external-id"] || [];
+
+        let doiUrl = "";
+        for (const ext of externalIds) {
+          const type = ext["external-id-type"]?.toLowerCase();
+          const value = ext["external-id-value"];
+          if (type === "doi" && value) {
+            doiUrl = `https://doi.org/${value}`;
+            break;
+          }
+        }
+
+        return {
+          title,
+          year,
+          journal,
+          type,
+          url: doiUrl || `https://orcid.org/${ORCID_ID}`
+        };
+      }).filter(Boolean);
+
+      items.sort((a, b) => (parseInt(b.year) || 0) - (parseInt(a.year) || 0));
+
+      container.innerHTML = items.slice(0, 6).map(item => `
+        <article class="rounded-2xl border border-line bg-white p-5 shadow-soft">
+          <p class="text-xs font-semibold uppercase tracking-[0.14em] text-slate-500">
+            ${item.type} · ${item.year}
+          </p>
+          <h3 class="mt-2 font-medium text-ink">${item.title}</h3>
+          ${item.journal ? `<p class="mt-2 text-sm leading-6 text-slate-600">${item.journal}</p>` : ""}
+          <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="mt-4 inline-flex text-sm font-medium text-ink underline underline-offset-4">
+            ${item.url.includes('doi.org') ? 'Apri Articolo' : 'Vedi su ORCID'}
+          </a>
+          </a>
+        </article>
+      `).join("");
+    } catch (error) {
+      container.innerHTML = `
+        <div class="rounded-2xl border border-line bg-white p-5">
+          <p class="text-sm leading-6 text-slate-600">Impossibile caricare le pubblicazioni in questo momento.</p>
+        </div>
+      `;
+      console.error(error);
+    }
+  }
+
+  loadOrcidWorks();
+</script> 
+</body>
+</html>
