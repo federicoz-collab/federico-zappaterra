@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://federicoz-collab.github.io/federico-zappaterra/sitemap.xml
