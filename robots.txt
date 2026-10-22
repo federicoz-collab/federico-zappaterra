@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://federicoz-collab.github.io/federico-zappaterra/sitemap.xml
+Sitemap: https://federicozappaterra.com/sitemap.xml
